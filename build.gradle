@@ -1,6 +1,7 @@
 plugins {
 	id 'java'
 	id 'jacoco'
+    id 'application'
 }
 
 group = 'com.geektrust'
