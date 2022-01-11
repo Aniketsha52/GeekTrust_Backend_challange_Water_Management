@@ -23,6 +23,10 @@ jacocoTestReport { //Please do not change this
     }
 }
 
+application {
+    mainClassName = 'com.geektrust.backend.App'
+}
+
 jar {
     archiveBaseName = 'geektrust' //Please do not change this final artifact name
     version =  null               //Please do not change this final artifact version
